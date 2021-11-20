@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(227, 237, 240);
+}
+.navdiv{
+    position:fixed;
+    width: 100%; 
+    z-index: 2;
+}
+.navbar-collapse{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav-item{
+padding-left: 10%;
+}
+
+.form-control{
+    padding-right: 10%;
+}
+
+.title{
+    padding-top: 10%;
+}
+.title-header {
+    font-family: "Montserrat-black";
+    line-height: 2;
+    font-weight: lighter;
+    font-size: 7rem;
+    margin: auto;
+    max-width: 70%;
+  }
+  
+  .title-image {
+    width: 70%;
+    /* transform: rotate(30deg); */
+    right: 15%;
+    position: absolute;
+  }
+  
+ 
+  #testimonials{
+    padding: 10% 15%;
+    text-align: center;
+    background-color: #0e080c11;
+    color: rgb(20, 20, 20);
+  }
+
+  .carousel-inner{
+      width: 80%;   
+      text-align: center;
+      margin: auto;
+  }
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    color: coral;
+}
+  
+#footer{
+    padding: 7% 15%;    
+    text-align: center;
+    color: rgba(83, 236, 121, 0.904);
+    font-size: 3rem;
+  }
+  .social-icon{
+    margin: 3% 5%;
+  }
+
+  .showrooms{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .room{
+    height: 100px;
+    width: 25%;
+    background-color: black;
+  }
