@@ -75,3 +75,32 @@ padding-left: 10%;
     width: 25%;
     background-color: black;
   }
+
+  .bikes{
+    width: 70%;
+    margin: auto;
+  }
+  .bike{
+    height: 300px;
+    background-color: azure;
+  }
+
+  .bike1{
+    height: 300px;
+    background-color: darkseagreen;
+    margin-top: 10px;
+  }
+
+  .bike-col{
+    height: 100%;
+    align-items: center;
+  }
+  .bike-image{
+    width: 100%;
+    height: 100%;
+  }
+  .details-table{
+    width: 80%;
+    margin: 10%;
+  }
+  

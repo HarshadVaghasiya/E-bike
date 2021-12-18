@@ -25,33 +25,81 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
-        <a class="navbar-brand" href="#">E bike</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Bikes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Showrooms</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0 d-flex flex-row-reverse">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
+    <div class="navdiv">
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="#">E bike</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bikes.html">Bikes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="showrooms.html">Showrooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"> Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0 d-flex flex-row-reverse">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div class="title bikes">
+        <div class="bike row">
+            <div class="col bike-col">
+                <img class="bike-image" src='/images/bike.png'>
+            </div>
+            <div class="col bike-col">
+                <table class="details-table">
+                    <th >Details</th>
+                    <tr>
+                        <td>Name</td>
+                        <td>R15</td>
+                    </tr>
+                    <tr>
+                        <td>Engine</td>
+                        <td>R15</td>
+                    </tr>
+                </table>
+            </div>
+
         </div>
-    </nav>
+        <div class="bike1 row">
+            <div class="col bike-col">
+                <img class="bike-image" src='/images/bike.png'>
+            </div>
+            <div class="col bike-col">
+                <table class="details-table">
+                    <th >Details</th>
+                    <tr>
+                        <td>Name</td>
+                        <td>R15</td>
+                    </tr>
+                    <tr>
+                        <td>Engine</td>
+                        <td>R15</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
