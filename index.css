@@ -1,26 +1,32 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+body {
     background-color: rgb(227, 237, 240);
+    font-family: 'Lato', sans-serif;
 }
-.navdiv{
-    position:fixed;
-    width: 100%; 
+
+.navdiv {
+    position: fixed;
+    width: 100%;
     z-index: 2;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     padding-left: 10%;
     padding-right: 10%;
 }
-.nav-item{
-padding-left: 10%;
+
+.nav-item {
+    padding-left: 10%;
 }
 
-.form-control{
+.form-control {
     padding-right: 10%;
 }
 
-.title{
+.title {
     padding-top: 10%;
 }
+
 .title-header {
     font-family: "Montserrat-black";
     line-height: 2;
@@ -28,79 +34,86 @@ padding-left: 10%;
     font-size: 7rem;
     margin: auto;
     max-width: 70%;
-  }
-  
-  .title-image {
+}
+
+.title-image {
     width: 70%;
     /* transform: rotate(30deg); */
     right: 15%;
     position: absolute;
-  }
-  
- 
-  #testimonials{
+}
+
+#testimonials {
     padding: 10% 15%;
     text-align: center;
     background-color: #0e080c11;
     color: rgb(20, 20, 20);
-  }
+}
 
-  .carousel-inner{
-      width: 80%;   
-      text-align: center;
-      margin: auto;
-  }
-.carousel-control-prev-icon, .carousel-control-next-icon{
+.carousel-inner {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     color: coral;
 }
-  
-#footer{
-    padding: 7% 15%;    
+
+#footer {
+    padding: 7% 15%;
     text-align: center;
     color: rgba(83, 236, 121, 0.904);
     font-size: 3rem;
-  }
-  .social-icon{
-    margin: 3% 5%;
-  }
+}
 
-  .showrooms{
+.social-icon {
+    margin: 3% 5%;
+}
+
+.showrooms {
     padding-top: 10%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-  .room{
+}
+
+.room {
     height: 100px;
     width: 25%;
     background-color: black;
-  }
+}
 
-  .bikes{
+.bikes {
     width: 70%;
     margin: auto;
-  }
-  .bike{
+}
+
+.bike {
     height: 300px;
+    color: rgb(52, 77, 52);
     background-color: azure;
-  }
+}
 
-  .bike1{
+.bike1 {
     height: 300px;
-    background-color: darkseagreen;
+    background-color: rgb(53, 97, 53);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
-  }
+}
 
-  .bike-col{
+.bike-col {
     height: 100%;
     align-items: center;
-  }
-  .bike-image{
+}
+
+.bike-image {
     width: 100%;
     height: 100%;
-  }
-  .details-table{
+}
+
+.details-table {
     width: 80%;
-    margin: 10%;
-  }
-  
+    margin: 5%;
+}
