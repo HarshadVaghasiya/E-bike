@@ -19,7 +19,7 @@ padding-left: 10%;
 }
 
 .title{
-    padding-top: 10%;
+    padding-top: 20%;
 }
 .title-header {
     font-family: "Montserrat-black";
@@ -64,17 +64,31 @@ padding-left: 10%;
     margin: 3% 5%;
   }
 
+  /* Showrooms  */
+
   .showrooms{
-    padding-top: 10%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .room{
-    height: 100px;
-    width: 25%;
-    background-color: black;
-  }
+.room{
+  height: 200px;
+  margin: 2%;
+  width: 44%;
+  font-size: larger;
+  border: burlywood;
+  border-radius: 2%;
+  background-color: azure;
+  transition: all 1s ease-in-out;
+}
+.room:hover{
+  transform: scale(1.2);
+}
+
+  /* Bikes  */
 
   .bikes{
     width: 70%;
@@ -98,9 +112,173 @@ padding-left: 10%;
   .bike-image{
     width: 100%;
     height: 100%;
+    transition: all 1s ease-in-out;
+  }
+  .bike-image:hover{
+    transform: scale(1.15);
   }
   .details-table{
     width: 80%;
     margin: 10%;
   }
   
+
+
+  /* contact us */
+
+        .container{
+         
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 25px;
+        }
+      
+        .contact-items{
+            display: flex;
+            margin: 30px auto;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+        .customer-care,.write-us{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:45%;
+            margin: 30px auto;
+            padding: 35px 15px;
+            border-radius: 15px;
+            text-align: center;
+            min-width: 250px;
+            
+        }
+        .customer-care{
+            height: 250px;
+            /* box-shadow: 0 15px 15px green; */
+            border: 1px solid green;
+        }
+        .write-us{
+            height: 250px;
+            /* box-shadow: 0 15px 15px red; */
+            border: 1px solid red;
+        }
+        .sales-market{
+            height: 250px;
+            /* box-shadow: 0 15px 15px blue; */
+            /* border: 1px solid blue; */
+        }
+        
+        .buttoncnt{
+            padding: 8px 16px;
+            font-size: 17px;
+            border-radius: 25px;
+            border: none;
+            margin: 15px auto;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+        }
+       
+        #cust-care{
+            background: green;
+
+            box-shadow: 0 0 5px black;
+        }
+        #write{
+            background: rgb(187, 15, 15);
+
+            box-shadow: 0 0 5px black;
+        }
+        #sales{
+            background: blue;
+            box-shadow: 0 0 5px black;
+        }
+       
+        /* .customer-care a{
+            color: green;
+            text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+        }
+        .sales-market a{
+            color: blue;
+            text-shadow: 0 0 2px rgba(76, 62, 158, 0.637);
+        } */
+
+
+
+        /* about us  */
+
+        /* *{
+          margin: 0;
+          padding: 0;
+          font-family: "Open Sans",sans-serif;
+          box-sizing: border-box;
+      } */
+      
+      /* body{
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #f1f1f1;
+      } */
+      
+      .about-section{
+          background: url(https://bd.gaadicdn.com/processedimages/royal-enfield/classic350/source/classic3506131bb8729f70.jpg?tr=h-48) no-repeat left;
+          background-size: 55%;
+          background-color: #fdfdfd;
+          overflow: hidden;
+          padding: 100px 0;
+      }
+      
+      .inner-container{
+          width: 55%;
+          float: right;
+          background-color: #fdfdfd;
+          padding: 150px;
+      }
+      
+      .inner-container h1{
+          margin-bottom: 30px;
+          font-size: 30px;
+          font-weight: 900;
+      }
+      
+      .text{
+          font-size: 20px;
+          color: #545454;
+          line-height: 30px;
+          text-align: justify;
+          margin-bottom: 40px;
+      }
+      
+      .skills{
+          display: flex;
+          justify-content: space-between;
+          font-weight: 700;
+          font-size: 13px;
+      }
+      
+      @media screen and (max-width:1200px){
+          .inner-container{
+              padding: 80px;
+          }
+      }
+      
+      @media screen and (max-width:1000px){
+          .about-section{
+              background-size: 100%;
+              padding: 100px 40px;
+          }
+          .inner-container{
+              width: 100%;
+          }
+      }
+      
+      @media screen and (max-width:600px){
+          .about-section{
+              padding: 0;
+          }
+          .inner-container{
+              padding: 60px;
+          }
+      }
