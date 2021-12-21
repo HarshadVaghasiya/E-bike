@@ -1,26 +1,32 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+body {
     background-color: rgb(227, 237, 240);
+    font-family: 'Lato', sans-serif;
 }
-.navdiv{
-    position:fixed;
-    width: 100%; 
+
+.navdiv {
+    position: fixed;
+    width: 100%;
     z-index: 2;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     padding-left: 10%;
     padding-right: 10%;
 }
-.nav-item{
-padding-left: 10%;
+
+.nav-item {
+    padding-left: 10%;
 }
 
-.form-control{
+.form-control {
     padding-right: 10%;
 }
 
-.title{
-    padding-top: 20%;
+.title {
+    padding-top: 10%;
 }
+
 .title-header {
     font-family: "Montserrat-black";
     line-height: 2;
@@ -28,41 +34,77 @@ padding-left: 10%;
     font-size: 7rem;
     margin: auto;
     max-width: 70%;
-  }
-  
-  .title-image {
+}
+
+.title-image {
     width: 70%;
     /* transform: rotate(30deg); */
     right: 15%;
     position: absolute;
-  }
-  
- 
-  #testimonials{
+}
+.carousel{
+  background-color: rgb(39, 39, 37);
+  border-radius: 2%;
+}
+
+#testimonials {
     padding: 10% 15%;
     text-align: center;
     background-color: #0e080c11;
     color: rgb(20, 20, 20);
-  }
+}
 
-  .carousel-inner{
-      width: 80%;   
-      text-align: center;
-      margin: auto;
-  }
-.carousel-control-prev-icon, .carousel-control-next-icon{
+.carousel-inner {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: cornsilk;
+    
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     color: coral;
 }
-  
-#footer{
-    padding: 7% 15%;    
+
+#footer {
+    padding: 7% 15%;
     text-align: center;
-    color: rgba(83, 236, 121, 0.904);
+    color: indigo;
     font-size: 3rem;
-  }
-  .social-icon{
-    margin: 3% 5%;
-  }
+}
+
+.social-icon {
+    margin: 3% 3%;
+    transition: all 1s ease-in-out;
+}
+.social-icon:hover{
+  transform: rotate(360deg) scale(2);
+}
+.main-brands{
+  text-align: center;
+}
+.brands{
+  width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.brand{
+  height: 120px;
+  margin: 1%;
+  width: 23%;
+  font-size: larger;
+}
+.types{
+  width: 40%;
+  margin: auto;
+  color: cadetblue;
+}
 
   /* Showrooms  */
 
@@ -75,6 +117,7 @@ padding-left: 10%;
     flex-wrap: wrap;
   }
 .room{
+  align-self: center;
   height: 200px;
   margin: 2%;
   width: 44%;
@@ -85,31 +128,42 @@ padding-left: 10%;
   transition: all 1s ease-in-out;
 }
 .room:hover{
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
   /* Bikes  */
 
-  .bikes{
+.bikes {
     width: 70%;
     margin: auto;
-  }
-  .bike{
-    height: 300px;
+}
+
+.bike {
+    height: 350px;
+    color: rgb(52, 77, 52);
     background-color: azure;
-  }
+}
 
-  .bike1{
-    height: 300px;
-    background-color: darkseagreen;
+.bike1 {
+    height: 350px;
+    background-color: darkslategray;
+    color: rgb(255, 255, 255);
     margin-top: 10px;
-  }
+}
+.demo{
 
-  .bike-col{
+}
+a{
+  color: white;
+}
+.buy{
+}
+.bike-col {
     height: 100%;
     align-items: center;
-  }
-  .bike-image{
+}
+
+.bike-image {
     width: 100%;
     height: 100%;
     transition: all 1s ease-in-out;
@@ -282,3 +336,25 @@ padding-left: 10%;
               padding: 60px;
           }
       }
+}
+
+.details-table {
+    width: 80%;
+    margin: 5%;
+}
+
+
+
+/* Buy  */
+
+
+
+.container1{
+  text-align: center;
+  width: 35%;
+  margin: auto;
+}
+
+.form-row{
+  margin: 2%;
+}
